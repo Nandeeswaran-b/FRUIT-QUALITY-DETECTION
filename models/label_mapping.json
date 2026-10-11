@@ -1,0 +1,59 @@
+{
+  "class_names": [
+    "freshapples",
+    "rottenapples",
+    "freshbanana",
+    "rottenbanana",
+    "freshoranges",
+    "rottenoranges"
+  ],
+  "classes": [
+    {
+      "index": 0,
+      "folder": "freshapples",
+      "fruit": "Apple",
+      "quality": "Fresh",
+      "display_name": "Apple \u2014 Fresh"
+    },
+    {
+      "index": 1,
+      "folder": "rottenapples",
+      "fruit": "Apple",
+      "quality": "Rotten",
+      "display_name": "Apple \u2014 Rotten"
+    },
+    {
+      "index": 2,
+      "folder": "freshbanana",
+      "fruit": "Banana",
+      "quality": "Fresh",
+      "display_name": "Banana \u2014 Fresh"
+    },
+    {
+      "index": 3,
+      "folder": "rottenbanana",
+      "fruit": "Banana",
+      "quality": "Rotten",
+      "display_name": "Banana \u2014 Rotten"
+    },
+    {
+      "index": 4,
+      "folder": "freshoranges",
+      "fruit": "Orange",
+      "quality": "Fresh",
+      "display_name": "Orange \u2014 Fresh"
+    },
+    {
+      "index": 5,
+      "folder": "rottenoranges",
+      "fruit": "Orange",
+      "quality": "Rotten",
+      "display_name": "Orange \u2014 Rotten"
+    }
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "preprocessing": "RGB float pixels rescaled with x / 127.5 - 1"
+}

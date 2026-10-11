@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.kaggle/
+.vscode/
+dataset/
+data/download/
+data/raw/
+data/processed/
+models/*.keras
+models/*.h5
+models/*.weights.h5
+metrics/*.csv
+metrics/*.json
+plots/*.png
