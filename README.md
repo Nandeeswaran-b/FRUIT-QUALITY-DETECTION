@@ -85,6 +85,21 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+### Streamlit Community Cloud
+
+TensorFlow 2.19.1 does not provide wheels for Python 3.14. In the Streamlit
+Community Cloud app settings, set the app's Python version to **3.12** before
+rebooting/redeploying:
+
+1. Open the app's **Manage app** menu and choose **Settings**.
+2. Set **Python version** to **3.12** and save.
+3. Reboot the app so Cloud recreates its environment from `requirements.txt`.
+
+The same version can be selected in **Advanced settings** when creating a new
+Community Cloud app. The trained `models/fruit_quality.keras` artifact and its
+matching `models/label_mapping.json` are included in this repository so the
+deployed app can load the model without requiring training during deployment.
+
 TensorFlow uses a CPU automatically when no supported GPU is available. GPU
 support depends on the TensorFlow version, operating system, CUDA/cuDNN, and
 device; for a laptop GPU with about 4 GB of VRAM, begin with batch size 16 (or
